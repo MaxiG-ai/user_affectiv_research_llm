@@ -1,12 +1,12 @@
 ,modelname,hyperparameter,optimized,accuracy_cv,std_cv
-0,GaussianNB,"{'priors': None, 'var_smoothing': 1e-09}",False,0.41100000000000003,0.09123595782365636
-1,SVC,"{'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': 42, 'shrinking': True, 'tol': 0.001, 'verbose': False}",False,0.42733333333333334,0.06409714848918355
-2,DecisionTreeClassifier,"{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}",False,0.45133333333333336,0.11584664192131097
-3,RandomForestClassifier,"{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}",False,0.5559999999999999,0.0932952303175248
-4,KNeighborsClassifier,"{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}",False,0.42,0.04732863826479693
-5,LogisticRegression,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 1000, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",False,0.39466666666666667,0.09412993383852156
-6,GaussianNB,{'var_smoothing': 0.02310129700083159},True,0.4756666666666667,
-7,KNeighborsClassifier,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}",True,0.524,
-8,DecisionTreeClassifier,"{'criterion': 'gini', 'max_depth': 7}",True,0.4996666666666667,
-9,SVC,"{'C': 7, 'gamma': 0.1}",True,0.524,
-10,RandomForestClassifier,"{'max_depth': 2, 'min_samples_leaf': 5, 'min_samples_split': 2}",True,0.5563333333333333,
+0,GaussianNB,"{'priors': None, 'var_smoothing': 1e-09}",False,0.4569257744009351,0.03363965491600594
+1,SVC,"{'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': 42, 'shrinking': True, 'tol': 0.001, 'verbose': False}",False,0.5563997662185856,0.04772985523561476
+2,DecisionTreeClassifier,"{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}",False,0.4915838690824079,0.05954987871248363
+3,RandomForestClassifier,"{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}",False,0.5875511396843951,0.03689915820411578
+4,KNeighborsClassifier,"{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}",False,0.48445353594389245,0.04164878393663396
+5,LogisticRegression,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 1000, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",False,0.5155464640561075,0.04947784947485156
+6,GaussianNB,{'var_smoothing': 1.0},True,0.4914085330216248,
+7,KNeighborsClassifier,"{'metric': 'manhattan', 'n_neighbors': 4, 'weights': 'distance'}",True,0.559906487434249,
+8,DecisionTreeClassifier,"{'criterion': 'entropy', 'max_depth': 15}",True,0.5255990648743424,
+9,SVC,"{'C': 11, 'gamma': 0.01}",True,0.6011689070718879,
+10,RandomForestClassifier,"{'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 2}",True,0.6116890707188779,
